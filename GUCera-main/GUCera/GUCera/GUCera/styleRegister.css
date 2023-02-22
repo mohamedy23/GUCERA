@@ -1,0 +1,66 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Stock/Background2.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+.registerbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 600px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+.user {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    top: calc(-75px/2);
+    left: 120px;
+    position: absolute;
+}
+
+.lblfname, .lbllname, .lblpass, .lblmail, .lbladdress, .ddlis, .ddlgender, .lblgender, .lblentity, .lblmsg {
+    font-weight: bold;
+    color: #fff;
+}
+.ddlis ,.txtfname ,.txtlname , .txtpass , .txtmail ,.ddlgender ,.txtaddress ,.btnregister{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.ddlis, .txtfname, .txtlname, .txtpass, .txtmail, .ddlgender, .txtaddress {
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: Bahnschrift;
+}
+::placeholder {
+    color: rgba(255,255,255,.5)
+}
+.btnregister {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    font-size: 16px;
+    color: rgb(235, 140, 8);
+    background-color: #fff;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3 ease-in-out;
+    font-weight: 700;
+    height:40px;
+}
+.btnregister:hover {
+    background-color: rgb(255, 216, 0);
+}

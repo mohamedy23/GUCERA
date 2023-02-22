@@ -1,0 +1,82 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Stock/Background2.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+.user {
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    top: 0;
+    left: 0px;
+    position: absolute;
+}
+.promobox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 900px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+    .lblgucera1, .lblgucera2, .lblgucera3 {
+    width: 75px;
+    height: 32px;
+    overflow: hidden;
+    left: 75px;
+    position: relative;
+    font-size: 75px;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-kerning: auto;
+    font-display: auto;
+    font-style: italic;
+}
+
+grid {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%,-50%);
+    font-family: Bahnschrift;
+    height: auto;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+/*.lbl1{
+    background-color:black;
+    font-family:Arial;
+    font-size:large;
+    font-display:fallback;
+    color:white;
+    left:2%;
+    position:relative;
+    font-weight:900;
+
+    }
+.lbl {
+    background-color:transparent;
+    font-family: Arial;
+    font-size: small;
+    font-display: fallback;
+    color:dimgray;
+    left: 2%;
+    position: relative;
+    font-weight: 900;
+}
+    */
+.promo {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    top: calc(-75px/2);
+    left: 390px;
+    position: absolute;
+} 

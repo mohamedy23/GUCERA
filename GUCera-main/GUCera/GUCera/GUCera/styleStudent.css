@@ -1,0 +1,128 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	background-image: url('Stock/Background2.jpg');
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.studentbox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 750px;
+	height: 500px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.5);
+}
+
+.user {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	top: calc(-75px/2);
+	left: 120px;
+	position: absolute;
+}
+
+.lblgucera1, .lblgucera2, .lblgucera3 {
+	width: 100px;
+	height: 32px;
+	overflow: hidden;
+	top: calc(-230px/2);
+	left: 180px;
+	position: relative;
+	font-size: 100px;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	font-kerning: auto;
+	font-display: auto;
+	font-style: italic;
+}
+
+.lblwelcome {
+	width: 260px;
+	height: 40px;
+	overflow: hidden;
+	top: 15%;
+	left: 32.5%;
+	font-size: 30px;
+	position: absolute;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	font-kerning: auto;
+	font-display: auto;
+	color: white;
+}
+
+.button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8, .button9, .button10 {
+	width: 300px;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+	color: rgb(225, 6, 6);
+	background-color: #fff;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: 0.3 ease-in-out;
+	font-weight: 700;
+	position: relative;
+	top: -75px;
+	left: 5%;
+}
+
+.button11 {
+	width: 300px;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+	color: rgb(225, 6, 6);
+	background-color: #fff;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: 0.3 ease-in-out;
+	font-weight: 700;
+	position: relative;
+	top: -75px;
+	left: 25.5%;
+}
+
+.btnlogout {
+	width: 150px;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+	color: rgb(225, 6, 6);
+	background-color: #fff;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: 0.3 ease-in-out;
+	font-weight: 1000;
+	position: relative;
+	top: -75px;
+	left: 35.5%;
+}
+
+
+.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button6:hover, .button7:hover, .button8:hover, .button9:hover, .button10:hover, .button11:hover {
+	background-color: rgb(255, 216, 0);
+}
+
+.btnlogout:hover {
+	background-color: red;
+	color: white;
+}

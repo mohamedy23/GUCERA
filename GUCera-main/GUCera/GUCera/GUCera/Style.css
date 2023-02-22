@@ -1,0 +1,129 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	background-image: url('Stock/Background2.jpg');
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.lblgucera1, .lblgucera2, .lblgucera3 {
+	width: 75px;
+	height: 32px;
+	overflow: hidden;
+	left: 75px;
+	position: relative;
+	font-size: 75px;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	font-kerning: auto;
+	font-display: auto;
+	font-style: italic;
+}
+.lblgucera1{
+	color:#000000;
+}
+.lblgucera2 {
+	color:#ed1c24;
+}
+.lblgucera3 {
+	color: #ffcb08;
+}
+
+	.box {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 350px;
+		height: 550px;
+		padding: 80px 40px;
+		box-sizing: border-box;
+		background: rgba(0,0,0,0.5);
+	}
+.box2 {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	padding: 80px 40px;
+	box-sizing: border-box;
+
+}
+
+
+.user {
+	width: 75px;
+	height: 75px;
+	overflow: hidden;
+	top: 0;
+	left: 0px;
+	position: absolute;
+}
+
+h2 {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: #ffcb08;
+	font-family: Bahnschrift;
+	font-size: 30px;
+}
+
+.addcourse {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	top: calc(-75px/2);
+	left: 120px;
+	position: absolute;
+}
+
+.button, .button2 {
+	width: 100%;
+	margin-bottom: 20px;
+	border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	outline: none;
+	font-size: 16px;
+	color: #ed1c24;
+	background-color: #fff;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: 0.3 ease-in-out;
+	font-weight: 700;
+	height: 40px;
+}
+
+	.button:hover, .button2:hover {
+		background-color: #ffcb08;
+	}
+
+.lbl {
+	font-weight: bold;
+	color: #fff;
+}
+
+.txt {
+	width: 100%;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	font-size: 16px;
+	background-color: transparent;
+	font-weight: bold;
+	font-family: Bahnschrift;
+	color: #ffcb08;
+}
+.grid {
+	width :600px;
+}
+.grid td {
+	border: solid 1px #000000;
+	
+}
+

@@ -1,0 +1,84 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Stock/Background2.jpg');
+    background-size:cover;
+    font-family:sans-serif;
+}
+.loginbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height:420px;
+    padding:80px 40px ;
+    box-sizing:border-box;
+    background: rgba(0,0,0,0.5);
+}
+.user {
+    width:100px;
+    height:100px;
+    overflow:hidden;
+    top: calc(-75px/2);
+    left:120px;
+    position : absolute;
+}
+h2 {
+padding:0;
+margin:0;
+text-align:center;
+color: #fff;
+font-family:Bahnschrift;
+}
+.lblid , .lblpass ,.lblmsg {
+    font-weight:bold;
+    color: #fff;
+
+}
+.txtid , .txtpass , .btnlogin{
+    width:100%;
+    margin-bottom:20px;
+}
+.txtid, .txtpass{
+    border:none; 
+    border-bottom:1px solid #fff;
+    outline:none;
+    height:30px;
+    color:#fff ;
+    font-size:16px;
+    background-color:transparent;
+}
+::placeholder{
+    color:rgba(255,255,255,.5)
+}
+.btnlogin{
+    border:none;
+    outline:none;
+    height:40px;
+    font-size:16px;
+    color:rgb(235, 140, 8);
+    background-color:#fff;
+    font-family:Bahnschrift;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:20px;
+    transition: 0.3 ease-in-out;
+    font-weight:700;
+
+}
+.btnlogin:hover{
+    background-color:rgb(255, 216, 0);
+}
+.btnregister {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(235, 140, 8);
+    
+}
+.btnregister:hover {
+    color:rgb(255, 216, 0);
+    text-decoration:underline;
+}
+
